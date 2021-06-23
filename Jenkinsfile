@@ -39,7 +39,7 @@ pipeline {
 {
 steps
 {
-nexusArtifactUploader artifacts: [[artifactId: 'java', classifier: '', file: 'target/java.war', type: 'war']], credentialsId: 'nexus', groupId: 'my', nexusUrl: '18.117.179.51:5051', nexusVersion: 'nexus3', protocol: 'http', repository: 'http://18.117.179.51:5051/repository/new1/', version: '0.0.1-SNAPSHOT'
+nexusArtifactUploader artifacts: [[artifactId: 'java', classifier: '', file: 'target/java.war', type: 'war']], credentialsId: 'nexus', groupId: 'my', nexusUrl: '18.117.179.51:5051', nexusVersion: 'nexus3', protocol: 'http', repository: 'http://18.117.179.51:5051/', version: '0.0.1-SNAPSHOT'
 }
 }
           
